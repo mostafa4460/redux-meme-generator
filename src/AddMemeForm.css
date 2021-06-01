@@ -1,0 +1,16 @@
+.AddMemeForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #34b7eb;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    width: 80vw;
+    margin: 0 auto;
+    border: 2px solid seagreen;
+    border-radius: 20px;
+}
+
+.AddMemeForm-submit {
+    width: 5vw;
+    margin: 10px auto;
+}

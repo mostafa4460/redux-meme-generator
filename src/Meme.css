@@ -1,0 +1,30 @@
+.Meme {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.Meme:hover {
+    border: 3px solid seagreen;
+    border-radius: 20px;
+}
+
+.Meme-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 0.5;
+}
+
+.Meme-top, .Meme-bot {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 1;
+}
+.Meme-top {
+    flex: 1
+}

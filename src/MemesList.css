@@ -1,0 +1,6 @@
+.MemesList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 10px auto;
+}
